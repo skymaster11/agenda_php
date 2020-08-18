@@ -6,7 +6,7 @@
     <nav class="navbar navbar-dark bg-dark">
         <a href="#" class="navbar-brand mx-auto">AGENDA</a>
     </nav>
-    
+
     <div class="container">
         <div class="row">
             <div class="col-md-6 mt-4 text-center">
@@ -26,7 +26,7 @@
                         <td data-label="Nombre"><?php echo $row['nombre'] ?></td>
                         <td data-label="Correo"><?php echo $row['telefono'] ?></td>
                         <td data-label="Teléfono"><?php echo $row['correo'] ?></td>
-                        <td data-label="Acciones"><p><a href="eliminar.php?id=<?php echo $row['id_agenda']?>" class="fas fa-trash-alt"></a></p></td>
+                        <td data-label="Acciones"><p><a href="eliminar.php?id=<?php echo $row['id_agenda']?>"class="btn btn-danger"><i class="fas fa-trash"></i></a></p></td>
                     </tr>
                    <?php } ?>
 
